@@ -212,5 +212,5 @@ for g in range(N_groups):
                     
 fp.close()  
 
-# (pandas.read_csv('timetable.csv')).to_latex('timetable.tex')
+(pandas.read_csv('timetable.csv')).to_latex('timetable.tex')
 
