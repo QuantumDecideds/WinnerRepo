@@ -20,7 +20,10 @@ slack_3rd_cond = {(d,p,s,g,pow_): qv.QUBO.create_var('s3_%d%d%d%d%d'% (d,p,s,g,p
 power_6th_cond = 5 # 31>20
 slack_6th_cond = {(p,w,pow_): qv.QUBO.create_var('s6_%d%d%d'% (p,w,pow_)) for p in range(N_lecturers) for w in range(2) for pow_ in range(power_6th_cond)}
 
+
+
 model = 0
+
 
 # 4th condition:
 for key in x.keys():
